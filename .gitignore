@@ -1,0 +1,4 @@
+.elasticbeanstalk/
+*.pyc
+/apache/
+/src/

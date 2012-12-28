@@ -1,0 +1,7 @@
+
+<li class="nav-header">Archives</li>
+	{% for date in dates %}
+    	<li><a href="/archives/{{ date.year}}/{{ date.month }}">{{ date.year }}/{{ date.month }}</a></li>
+    {% empty %}
+    	<li>None</li>
+    {% endfor %}

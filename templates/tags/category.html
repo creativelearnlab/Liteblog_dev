@@ -1,0 +1,6 @@
+  <li class="nav-header">Category</li>
+              {% for category_entry in category_list %}
+              	<li><a href="/category/{{ category_entry.id }}">{{ category_entry.name}} ({{ category_entry.entries.all|length}})</a></li>
+              {% empty %}
+              	<li>None</li>
+              {% endfor %}

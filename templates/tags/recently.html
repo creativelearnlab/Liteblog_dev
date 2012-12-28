@@ -1,0 +1,6 @@
+<li class="nav-header">Recently</li>
+              {% for entry in entry_list %}
+              	<li><a href="/blog/{{ entry.id}}">{{ entry.title }}</a></li>
+              {% empty %}
+              	<li>None</li>
+              {% endfor %}

@@ -1,0 +1,18 @@
+Django==1.4.3
+Markdown==2.2.1
+PIL==1.1.7
+South==0.7.6
+argparse==1.2.1
+boto==2.6.0
+distribute==0.6.27
+django-filebrowser==3.5.1
+django-grappelli==2.4.3
+django-pagination==1.0.7
+-e git://github.com/jamstooks/django-s3-folder-storage.git@fd959a99b3a62b64d9e73534538efeb016fd4dc7#egg=django_s3_folder_storage-dev
+django-storages==1.1.5
+django-taggit==0.9.3
+django-taggit-templatetags==0.4.6dev
+django-templatetag-sugar==0.1
+elementtree==1.2.7-20070827-preview
+psycopg2==2.4.6
+wsgiref==0.1.2
